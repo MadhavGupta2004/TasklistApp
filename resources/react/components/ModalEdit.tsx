@@ -1,6 +1,5 @@
 import {Modal} from "react-responsive-modal";
-/*import React from "react";*/
-import {editTask} from "../../js/utils.js";
+import {editTask} from "../utils.js";
 
 function ModalEdit({
                        isModalEditOpen, setIsModalEditOpen, setModalEditTask,

@@ -1,5 +1,5 @@
 import {Modal} from "react-responsive-modal";
-import {deleteTask} from "../../js/utils.js";
+import {deleteTask} from "../utils.js";
 
 function ModalDelete({
                          isModalDeleteOpen, setIsModalDeleteOpen,

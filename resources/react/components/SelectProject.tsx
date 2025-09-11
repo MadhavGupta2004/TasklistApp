@@ -1,4 +1,4 @@
-import {getTasks} from "../../js/utils.js";
+import {getTasks} from "../utils.js";
 
 function SelectProject({projectId, projects, setProjectId, setTasks}) {
     const selectProject = (e) => {

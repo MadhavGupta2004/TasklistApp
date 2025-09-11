@@ -1,5 +1,5 @@
 import React from "react";
-import {createTask} from "../../js/utils.js";
+import {createTask} from "../utils.js";
 
 function AddTaskForm({newTask, setNewTask, projectId, reloadTasks })
 {
