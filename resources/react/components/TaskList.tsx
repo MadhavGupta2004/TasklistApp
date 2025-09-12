@@ -4,7 +4,7 @@ import {reorderTasks} from "../utils.js";
 import React from "react";
 
 const getItemStyle = (isDragging, draggableStyle) => ({
-    background: isDragging ? 'lightgreen' : 'grey',
+    background: isDragging ? 'red' : '#34aadc',
     ...draggableStyle,
 });
 
